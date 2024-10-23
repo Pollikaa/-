@@ -1,0 +1,39 @@
+<graph_data>
+  <points>
+    <point id="1" x="100" y="300" />
+    <point id="2" x="50" y="200" />
+    <point id="3" x="200" y="100" />
+    <point id="4" x="400" y="100" />
+    <point id="5" x="300" y="200" />
+    <point id="6" x="150" y="250" />
+    <point id="7" x="450" y="250" />
+    <point id="8" x="100" y="400" />
+    <point id="9" x="350" y="400" />
+  </points>
+  <lines>
+    <line from="1" to="2" weight="2" />
+    <line from="1" to="6" weight="24" />
+    <line from="1" to="8" weight="2" />
+
+    <line from="2" to="3" weight="58" />
+    <line from="2" to="5" weight="96" />
+    <line from="2" to="6" weight="58" />
+
+    <line from="3" to="4" weight="14" />
+    <line from="3" to="5" weight="11" />
+
+    <line from="4" to="5" weight="24" />
+    <line from="4" to="7" weight="24" />
+
+    <line from="5" to="6" weight="62" />
+    <line from="5" to="7" weight="14" />
+
+    <line from="6" to="7" weight="9" />
+    <line from="6" to="8" weight="36" />
+    <line from="6" to="9" weight="8" />
+
+    <line from="7" to="9" weight="26" />
+
+    <line from="8" to="9" weight="28" />
+  </lines>
+</graph_data>
